@@ -5,12 +5,14 @@ I prefer to keep it portable, rather than directly feeding it an audio-signal.<b
 <br>
 Board: Arduino Uno<br>
 LEDs: WS2812B<br>
-Sound Sensor: not really a good one - will update if I get myself a proper microphone to connect (preferably with adjustable gain).<br>
+Microphone: MAX4466<br>
 <br>
 TODOs:<br>
-- variable Color: quiet => blue gradually increasing (Hue-wise) up to loud => red.<br>
-- instead of blacking out and redrawing everything, gradually decaying the colors, for a smoother look.
-
+- add webserver for control<br>
+- add display mode options on webserver<br>
+- create different display mode options<br>
+<br>
+Not quite up-to-date example:
 
 https://user-images.githubusercontent.com/61330818/119265306-8305ce00-bbe6-11eb-877b-978cd35acb38.mp4
 
